@@ -117,7 +117,7 @@ linters-settings:
   custom:
     loglinter:
       type: module
-      path: github.com/ilnurcode/loglinter/cmd/main.go@v1.0.0
+      path: github.com/ilnurcode/loglinter@v1.0.1
       description: "Проверка лог-сообщений"
       original-url: github.com/ilnurcode/loglinter
 ```
@@ -205,10 +205,8 @@ loglinter/
 ├── internal/analysisutil/
 │   └── util.go                 # Вспомогательные функции
 ├── .github/workflows/ci.yml    # CI/CD конфигурация
-├── .loglinter.yaml             # Пример конфигурации
 ├── go.mod
-├── go.sum
-└── test_example.go             # Пример для проверки
+└── go.sum
 ```
 
 ## Тестирование
