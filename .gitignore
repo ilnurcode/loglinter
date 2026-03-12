@@ -1,0 +1,66 @@
+# Бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.bin
+*.loglinter
+loglinter
+loglinter.exe
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+._*
+
+# Файлы IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Go workspace
+go.work
+go.work.sum
+
+# Тестовые файлы
+coverage.out
+coverage.html
+*.cover
+*.test
+*.prof
+
+# Сборка
+dist/
+build/
+bin/
+vendor/
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальная конфигурация
+*.local.yaml
+*.local.yml
+.env
+.env.local
+
+# Секреты
+*.pem
+*.key
+*.crt
+secrets/

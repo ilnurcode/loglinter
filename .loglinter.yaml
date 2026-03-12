@@ -1,0 +1,33 @@
+# loglinter configuration  
+  
+sensitive_patterns:  
+  - password  
+  - passwd  
+  - secret  
+  - token  
+  - api_key  
+  - apikey  
+  - credential  
+  
+allowed_loggers:  
+  log:  
+    - Print  
+    - Println  
+    - Printf  
+    - Info  
+    - Error  
+    - Warn  
+    - Debug  
+  slog:  
+    - Info  
+    - Error  
+    - Warn  
+    - Debug  
+    - Log  
+  zap:  
+    - Info  
+    - Error  
+    - Warn  
+    - Debug  
+    - Panic  
+    - Fatal 
