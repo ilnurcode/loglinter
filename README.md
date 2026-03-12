@@ -71,6 +71,37 @@
 | `zap` | Info, Error, Warn, Debug, Panic, Fatal |
 | `logger` | Info, Error, Warn, Debug, Print, Println, Printf |
 
+## Установка
+
+### Вариант 1: Установка через go install
+
+```bash
+go install github.com/ilnurcode/loglinter@latest
+```
+
+После установки линтер доступен как команда:
+
+```bash
+loglinter ./...
+```
+
+### Вариант 2: Запуск без установки
+
+```bash
+go run github.com/ilnurcode/loglinter@latest ./...
+```
+
+### Вариант 3: Локальная сборка
+
+```bash
+git clone https://github.com/ilnurcode/loglinter.git
+cd loglinter
+go build -o loglinter ./cmd/main.go
+./loglinter ./...
+```
+
+---
+
 ## Интеграция с golangci-lint
 
 ### Использование как Module Plugin
