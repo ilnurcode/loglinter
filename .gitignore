@@ -5,62 +5,23 @@
 *.so
 *.dylib
 *.bin
-*.loglinter
-loglinter
-loglinter.exe
 
-# Временные файлы
-*.tmp
-*.bak
-*.swp
-*~
-._*
+# Бинарники линтера (в корне проекта)
+/loglinter
+/loglinter.exe
+/loglinter.loglinter
 
-# Файлы IDE
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-.project
-.classpath
-.settings/
-*.sublime-project
-*.sublime-workspace
-
-# Go workspace
-go.work
-go.work.sum
-
-# Тестовые файлы
-coverage.out
-coverage.html
-*.cover
-*.test
-*.prof
-
-# Сборка
-dist/
-build/
-bin/
-vendor/
-
-# Логи
-*.log
-
-# Системные файлы
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Локальная конфигурация
-*.local.yaml
-*.local.yml
-.env
-.env.local
-
-# Секреты
-*.pem
-*.key
-*.crt
-secrets/
+# Игнорировать всё кроме .gitignore
+/*
+!.gitignore
+!go.mod
+!go.sum
+!README.md
+!Makefile
+!.loglinter.yaml
+!test_example.go
+!GOLANGCI-INTEGRATION.md
+!cmd/
+!pkg/
+!internal/
+!.github/
