@@ -6,11 +6,6 @@
 *.dylib
 *.bin
 
-# Бинарники линтера (в корне проекта)
-/loglinter
-/loglinter.exe
-/loglinter.loglinter
-
 # Игнорировать всё кроме .gitignore
 /*
 !.gitignore
